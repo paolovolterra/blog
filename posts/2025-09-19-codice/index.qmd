@@ -1,0 +1,29 @@
+---
+title: "Primo grafico con codice"
+date: 2025-09-19
+categories: [python, grafici]
+draft: false
+---
+
+In questo post mostro come Quarto può eseguire codice Python e visualizzare un grafico direttamente dentro la pagina.
+
+```{python}
+#| echo: true
+#| fig-cap: "Un semplice grafico di prova"
+
+import matplotlib.pyplot as plt
+import pandas as pd
+
+# dati fittizi
+data = pd.DataFrame({
+    "Mese": ["Gen", "Feb", "Mar", "Apr"],
+    "Valore": [10, 15, 7, 12]
+})
+
+plt.plot(data["Mese"], data["Valore"], marker="o")
+plt.title("Valori di esempio")
+plt.xlabel("Mese")
+plt.ylabel("Valore")
+plt.grid(True)
+plt.show()
+```

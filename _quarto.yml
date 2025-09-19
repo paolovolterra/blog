@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Grafici che fanno pensare"
+  site-url: https://paolovolterra.github.io/blog
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: posts/index.qmd
+        text: Post
+  page-navigation: true
+  open-graph: true
+  twitter-card: true
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    code-copy: true
+
+# <<< aggiungi questa parte >>>
+execute:
+  echo: true       # mostra il codice
+  warning: false   # nasconde i warning
+  error: false     # non interrompe per errori
+  cache: true
+  freeze: auto
+  default-language: python

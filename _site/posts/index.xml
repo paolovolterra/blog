@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Grafici che fanno pensare</title>
+<link>https://paolovolterra.github.io/blog/posts/</link>
+<atom:link href="https://paolovolterra.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.7.32</generator>
+<lastBuildDate>Thu, 18 Sep 2025 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Primo grafico con codice</title>
+  <link>https://paolovolterra.github.io/blog/posts/2025-09-19-codice/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>In questo post mostro come Quarto può eseguire codice Python e visualizzare un grafico direttamente dentro la pagina.</p>
+<div id="bf1b5965" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> matplotlib.pyplot <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> plt</span>
+<span id="cb1-2"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> pandas <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> pd</span>
+<span id="cb1-3"></span>
+<span id="cb1-4"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># dati fittizi</span></span>
+<span id="cb1-5">data <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> pd.DataFrame({</span>
+<span id="cb1-6">    <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Mese"</span>: [<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Gen"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Feb"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Mar"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Apr"</span>],</span>
+<span id="cb1-7">    <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Valore"</span>: [<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">15</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">7</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">12</span>]</span>
+<span id="cb1-8">})</span>
+<span id="cb1-9"></span>
+<span id="cb1-10">plt.plot(data[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Mese"</span>], data[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Valore"</span>], marker<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"o"</span>)</span>
+<span id="cb1-11">plt.title(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Valori di esempio"</span>)</span>
+<span id="cb1-12">plt.xlabel(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Mese"</span>)</span>
+<span id="cb1-13">plt.ylabel(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Valore"</span>)</span>
+<span id="cb1-14">plt.grid(<span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">True</span>)</span>
+<span id="cb1-15">plt.show()</span></code></pre></div>
+<div class="cell-output cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://paolovolterra.github.io/blog/posts/2025-09-19-codice/index_files/figure-html/cell-2-output-1.png" width="585" height="449" class="figure-img"></p>
+<figcaption>Un semplice grafico di prova</figcaption>
+</figure>
+</div>
+</div>
+</div>
+
+
+
+ ]]></description>
+  <category>python</category>
+  <category>grafici</category>
+  <guid>https://paolovolterra.github.io/blog/posts/2025-09-19-codice/</guid>
+  <pubDate>Thu, 18 Sep 2025 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Post di prova</title>
+  <link>https://paolovolterra.github.io/blog/posts/2025-09-19-prova/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Funziona anche come sito separato (project site).</p>
+
+
+
+ ]]></description>
+  <category>note</category>
+  <guid>https://paolovolterra.github.io/blog/posts/2025-09-19-prova/</guid>
+  <pubDate>Thu, 18 Sep 2025 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Post With Code</title>
+  <dc:creator>Harlow Malloc</dc:creator>
+  <link>https://paolovolterra.github.io/blog/posts/post-with-code/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This is a post with executable code.</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <category>code</category>
+  <category>analysis</category>
+  <guid>https://paolovolterra.github.io/blog/posts/post-with-code/</guid>
+  <pubDate>Thu, 18 Sep 2025 22:00:00 GMT</pubDate>
+  <media:content url="https://paolovolterra.github.io/blog/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Welcome To My Blog</title>
+  <dc:creator>Tristan O&#39;Malley</dc:creator>
+  <link>https://paolovolterra.github.io/blog/posts/welcome/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This is the first post in a Quarto blog. Welcome!</p>
+<p><img src="https://paolovolterra.github.io/blog/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
+<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://paolovolterra.github.io/blog/posts/welcome/</guid>
+  <pubDate>Mon, 15 Sep 2025 22:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
