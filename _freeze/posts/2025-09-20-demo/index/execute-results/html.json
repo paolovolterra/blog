@@ -1,0 +1,12 @@
+{
+  "hash": "4a35f561923c8b4c85829874c610e1aa",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Demo con immagine e codice\"\ndate: 2025-09-20\ncategories: [python, demo]\ndescription: \"Esempio di post con immagine di copertina e grafico generato da Python.\"\nimage: ../../assets/images/demo-cover.png\ndraft: false\n---\n\n### Tabella\n\n::: {#db91e007 .cell execution_count=1}\n``` {.python .cell-code}\nimport pandas as pd\ndf = pd.DataFrame({\"Anno\":[2022,2023,2024], \"Valore\":[10,15,20]})\nprint(df)\n\n\nimport matplotlib.pyplot as plt\nplt.plot(df[\"Anno\"], df[\"Valore\"], marker=\"o\")\nplt.title(\"Crescita demo\")\nplt.grid(True)\nplt.show()\n\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n   Anno  Valore\n0  2022      10\n1  2023      15\n2  2024      20\n```\n:::\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-2-output-2.png){width=570 height=431}\n:::\n:::\n\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

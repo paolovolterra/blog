@@ -5,7 +5,9 @@ listing:
   contents:
     - "*/index.qmd"
   sort: "date desc"
-  type: default
+  type: grid
+  fields: [image, title, date, categories, description]
+  grid-columns: 3
   categories: true
   feed: true
 ---

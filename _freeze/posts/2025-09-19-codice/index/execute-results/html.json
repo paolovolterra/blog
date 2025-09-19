@@ -1,8 +1,8 @@
 {
-  "hash": "114c55001889aa63454c5c1d564c837a",
+  "hash": "45bfa11669cd4771fc057de4b15e0601",
   "result": {
     "engine": "jupyter",
-    "markdown": "---\ntitle: \"Primo grafico con codice\"\ndate: 2025-09-19\ncategories: [python, grafici]\ndraft: false\n---\n\nIn questo post mostro come Quarto può eseguire codice Python e visualizzare un grafico direttamente dentro la pagina.\n\n::: {#bf1b5965 .cell execution_count=1}\n``` {.python .cell-code}\nimport matplotlib.pyplot as plt\nimport pandas as pd\n\n# dati fittizi\ndata = pd.DataFrame({\n    \"Mese\": [\"Gen\", \"Feb\", \"Mar\", \"Apr\"],\n    \"Valore\": [10, 15, 7, 12]\n})\n\nplt.plot(data[\"Mese\"], data[\"Valore\"], marker=\"o\")\nplt.title(\"Valori di esempio\")\nplt.xlabel(\"Mese\")\nplt.ylabel(\"Valore\")\nplt.grid(True)\nplt.show()\n```\n\n::: {.cell-output .cell-output-display}\n![Un semplice grafico di prova](index_files/figure-html/cell-2-output-1.png){width=585 height=449}\n:::\n:::\n\n\n",
+    "markdown": "---\ntitle: \"Primo grafico con codice\"\ndate: 2025-09-19\ncategories: [python, grafici]\ndescription: \"Esempio di post con tabella e grafico Python generati automaticamente.\"\ndraft: false\n---\n\nIn questo post mostro come Quarto può eseguire codice Python e visualizzare un grafico direttamente dentro la pagina.\n\n::: {#fac18f67 .cell execution_count=1}\n``` {.python .cell-code}\nimport matplotlib.pyplot as plt\nimport pandas as pd\n\n# dati fittizi\ndata = pd.DataFrame({\n    \"Mese\": [\"Gen\", \"Feb\", \"Mar\", \"Apr\"],\n    \"Valore\": [10, 15, 7, 12]\n})\n\nplt.plot(data[\"Mese\"], data[\"Valore\"], marker=\"o\")\nplt.title(\"Valori di esempio\")\nplt.xlabel(\"Mese\")\nplt.ylabel(\"Valore\")\nplt.grid(True)\nplt.show()\n```\n\n::: {.cell-output .cell-output-display}\n![Un semplice grafico di prova](index_files/figure-html/cell-2-output-1.png){width=585 height=449}\n:::\n:::\n\n\n",
     "supporting": [
       "index_files"
     ],

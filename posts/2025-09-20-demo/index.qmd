@@ -1,0 +1,27 @@
+---
+title: "Demo con immagine e codice"
+date: 2025-09-20
+categories: [python, demo]
+description: "Esempio di post con immagine di copertina e grafico generato da Python."
+image: ../../assets/images/demo-cover.png
+draft: false
+---
+
+### Tabella
+
+```{python}
+import pandas as pd
+df = pd.DataFrame({"Anno":[2022,2023,2024], "Valore":[10,15,20]})
+print(df)
+
+
+import matplotlib.pyplot as plt
+plt.plot(df["Anno"], df["Valore"], marker="o")
+plt.title("Crescita demo")
+plt.grid(True)
+plt.show()
+
+
+```
+
+
