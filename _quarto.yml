@@ -29,7 +29,7 @@ format:
     theme:
       light: journal
       dark: cyborg
-    css: styles.css
+    css: https://paolovolterra.github.io/styles.css
     toc: true
     code-copy: true
 
