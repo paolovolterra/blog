@@ -10,7 +10,95 @@
 <atom:link href="https://paolovolterra.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.8.24</generator>
-<lastBuildDate>Fri, 19 Sep 2025 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 20 Sep 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Demo con immagine e codice</title>
+  <link>https://paolovolterra.github.io/blog/posts/2025-09-20-demo/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<section id="tabella" class="level3">
+<h3 class="anchored" data-anchor-id="tabella">Tabella</h3>
+<div id="db91e007" class="cell" data-execution_count="1">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> pandas <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> pd</span>
+<span id="cb1-2">df <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> pd.DataFrame({<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Anno"</span>:[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2022</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2023</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2024</span>], <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Valore"</span>:[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">15</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">20</span>]})</span>
+<span id="cb1-3"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(df)</span>
+<span id="cb1-4"></span>
+<span id="cb1-5"></span>
+<span id="cb1-6"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> matplotlib.pyplot <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> plt</span>
+<span id="cb1-7">plt.plot(df[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Anno"</span>], df[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Valore"</span>], marker<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"o"</span>)</span>
+<span id="cb1-8">plt.title(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Crescita demo"</span>)</span>
+<span id="cb1-9">plt.grid(<span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">True</span>)</span>
+<span id="cb1-10">plt.show()</span></code></pre></div></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>   Anno  Valore
+0  2022      10
+1  2023      15
+2  2024      20</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://paolovolterra.github.io/blog/posts/2025-09-20-demo/index_files/figure-html/cell-2-output-2.png" width="570" height="431" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>python</category>
+  <category>demo</category>
+  <guid>https://paolovolterra.github.io/blog/posts/2025-09-20-demo/</guid>
+  <pubDate>Sat, 20 Sep 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://paolovolterra.github.io/blog/assets/images/demo-cover.png" medium="image" type="image/png"/>
+</item>
 <item>
   <title>Primo grafico con codice</title>
   <link>https://paolovolterra.github.io/blog/posts/2025-09-19-codice/</link>
@@ -20,8 +108,9 @@
 
 
 
+
 <p>In questo post mostro come Quarto può eseguire codice Python e visualizzare un grafico direttamente dentro la pagina.</p>
-<div id="bf1b5965" class="cell" data-execution_count="1">
+<div id="fac18f67" class="cell" data-execution_count="1">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">import</span> matplotlib.pyplot <span class="im" style="color: #00769E;
@@ -112,6 +201,7 @@ font-style: inherit;">True</span>)</span>
 
 
 
+
 <p>Funziona anche come sito separato (project site).</p>
 
 
@@ -126,6 +216,7 @@ font-style: inherit;">True</span>)</span>
   <dc:creator>Harlow Malloc</dc:creator>
   <link>https://paolovolterra.github.io/blog/posts/post-with-code/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -148,6 +239,7 @@ font-style: inherit;">True</span>)</span>
   <dc:creator>Tristan O&#39;Malley</dc:creator>
   <link>https://paolovolterra.github.io/blog/posts/welcome/</link>
   <description><![CDATA[ 
+
 
 
 

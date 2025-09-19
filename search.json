@@ -1,26 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "blog",
-    "section": "",
-    "text": "Tutti i post\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPrimo grafico con codice\n\n\n\npython\n\ngrafici\n\n\n\n\n\n\n\n\n\nSep 19, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nPost di prova\n\n\n\nnote\n\n\n\n\n\n\n\n\n\nSep 19, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nSep 19, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 16, 2025\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code."
-  },
-  {
-    "objectID": "posts/2025-09-19-codice/index.html",
-    "href": "posts/2025-09-19-codice/index.html",
-    "title": "Primo grafico con codice",
-    "section": "",
-    "text": "In questo post mostro come Quarto può eseguire codice Python e visualizzare un grafico direttamente dentro la pagina.\n\nimport matplotlib.pyplot as plt\nimport pandas as pd\n\n# dati fittizi\ndata = pd.DataFrame({\n    \"Mese\": [\"Gen\", \"Feb\", \"Mar\", \"Apr\"],\n    \"Valore\": [10, 15, 7, 12]\n})\n\nplt.plot(data[\"Mese\"], data[\"Valore\"], marker=\"o\")\nplt.title(\"Valori di esempio\")\nplt.xlabel(\"Mese\")\nplt.ylabel(\"Valore\")\nplt.grid(True)\nplt.show()\n\n\n\n\nUn semplice grafico di prova"
-  },
-  {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
     "title": "Welcome To My Blog",
@@ -32,7 +11,7 @@
     "href": "posts/index.html",
     "title": "Tutti i post",
     "section": "",
-    "text": "Primo grafico con codice\n\n\n\npython\n\ngrafici\n\n\n\n\n\n\n\n\n\nSep 19, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nPost di prova\n\n\n\nnote\n\n\n\n\n\n\n\n\n\nSep 19, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nSep 19, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 16, 2025\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+    "text": "Demo con immagine e codice\n\n\n\npython\n\ndemo\n\n\n\nEsempio di post con immagine di copertina e grafico generato da Python.\n\n\n\nSep 20, 2025\n\n\n\n\n\n\n\n\n\n\n\nPrimo grafico con codice\n\n\n\npython\n\ngrafici\n\n\n\nEsempio di post con tabella e grafico Python generati automaticamente.\n\n\n\nSep 19, 2025\n\n\n\n\n\n\n\n\n\n\n\nPost di prova\n\n\n\nnote\n\n\n\n\n\n\n\nSep 19, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\nSep 19, 2025\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\nSep 16, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2025-09-19-prova/index.html",
@@ -42,10 +21,38 @@
     "text": "Funziona anche come sito separato (project site)."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Grafici che fanno pensare",
     "section": "",
-    "text": "About this blog"
+    "text": "Mini-saggi, grafici e note rapide. Tutto generato con Quarto, eseguito in CI su GitHub, pubblicato su GitHub Pages.\n\nPost tecnici con Python\nGrafici matplotlib\nDataset e script riutilizzabili"
+  },
+  {
+    "objectID": "index.html#ultimi-post",
+    "href": "index.html#ultimi-post",
+    "title": "Grafici che fanno pensare",
+    "section": "Ultimi post",
+    "text": "Ultimi post\ncontents: posts/*/index.qmd\nsort: \"date desc\"\ntype: grid\nfields: [image, title, date, categories, description]\ngrid-columns: 3\nmax-items: 6"
+  },
+  {
+    "objectID": "posts/2025-09-19-codice/index.html",
+    "href": "posts/2025-09-19-codice/index.html",
+    "title": "Primo grafico con codice",
+    "section": "",
+    "text": "In questo post mostro come Quarto può eseguire codice Python e visualizzare un grafico direttamente dentro la pagina.\n\nimport matplotlib.pyplot as plt\nimport pandas as pd\n\n# dati fittizi\ndata = pd.DataFrame({\n    \"Mese\": [\"Gen\", \"Feb\", \"Mar\", \"Apr\"],\n    \"Valore\": [10, 15, 7, 12]\n})\n\nplt.plot(data[\"Mese\"], data[\"Valore\"], marker=\"o\")\nplt.title(\"Valori di esempio\")\nplt.xlabel(\"Mese\")\nplt.ylabel(\"Valore\")\nplt.grid(True)\nplt.show()\n\n\n\n\nUn semplice grafico di prova"
+  },
+  {
+    "objectID": "posts/2025-09-20-demo/index.html",
+    "href": "posts/2025-09-20-demo/index.html",
+    "title": "Demo con immagine e codice",
+    "section": "",
+    "text": "Tabella\n\nimport pandas as pd\ndf = pd.DataFrame({\"Anno\":[2022,2023,2024], \"Valore\":[10,15,20]})\nprint(df)\n\n\nimport matplotlib.pyplot as plt\nplt.plot(df[\"Anno\"], df[\"Valore\"], marker=\"o\")\nplt.title(\"Crescita demo\")\nplt.grid(True)\nplt.show()\n\n   Anno  Valore\n0  2022      10\n1  2023      15\n2  2024      20"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
   }
 ]
