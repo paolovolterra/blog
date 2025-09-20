@@ -47,7 +47,8 @@ format:
       - pulse
       - BeatrizMilz.scss
   pdf:
-    output-dir: _pdf   # i PDF vanno in _pdf/
+    output-dir: _pdf
+  #  pdf-engine: typst
     
 execute:
   default-language: python

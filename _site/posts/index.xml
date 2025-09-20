@@ -20,7 +20,6 @@
 
 
 
-
 <section id="tabella" class="level3">
 <h3 class="anchored" data-anchor-id="tabella">Tabella</h3>
 <div id="db91e007" class="cell" data-execution_count="1">
@@ -92,7 +91,7 @@ font-style: inherit;">True</span>)</span>
 
 </section>
 
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>python</category>
   <category>demo</category>
   <guid>https://paolovolterra.github.io/blog/posts/2025-09-20-demo/</guid>
@@ -103,7 +102,6 @@ font-style: inherit;">True</span>)</span>
   <title>Primo grafico con codice</title>
   <link>https://paolovolterra.github.io/blog/posts/2025-09-19-codice/</link>
   <description><![CDATA[ 
-
 
 
 
@@ -186,7 +184,7 @@ font-style: inherit;">True</span>)</span>
 
 
 
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>python</category>
   <category>grafici</category>
   <guid>https://paolovolterra.github.io/blog/posts/2025-09-19-codice/</guid>
@@ -201,12 +199,11 @@ font-style: inherit;">True</span>)</span>
 
 
 
-
 <p>Funziona anche come sito separato (project site).</p>
 
 
 
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>note</category>
   <guid>https://paolovolterra.github.io/blog/posts/2025-09-19-prova/</guid>
   <pubDate>Thu, 18 Sep 2025 22:00:00 GMT</pubDate>
@@ -221,12 +218,11 @@ font-style: inherit;">True</span>)</span>
 
 
 
-
 <p>This is a post with executable code.</p>
 
 
 
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>news</category>
   <category>code</category>
   <category>analysis</category>
@@ -244,14 +240,13 @@ font-style: inherit;">True</span>)</span>
 
 
 
-
 <p>This is the first post in a Quarto blog. Welcome!</p>
 <p><img src="https://paolovolterra.github.io/blog/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
 <p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
 
 
 
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>news</category>
   <guid>https://paolovolterra.github.io/blog/posts/welcome/</guid>
   <pubDate>Mon, 15 Sep 2025 22:00:00 GMT</pubDate>
@@ -1272,7 +1267,7 @@ print(f"Risultati salvati in {output_file}")
 
 <section id="fondi-comunitari-nazionali-regionali-bancari-privati" class="level1" data-number="1">
 <h1 data-number="1"><span class="header-section-number">1</span> Fondi comunitari, nazionali, regionali, bancari, privati</h1>
-<div id="d7fe211a" class="cell" data-execution_count="1">
+<div id="d7fe211a" class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">import</span> pandas <span class="im" style="color: #00769E;
@@ -2113,7 +2108,7 @@ font-style: inherit;"># **📌 Mostra il grafico**</span></span>
 </div>
 </div>
 </div>
-<div id="e087658c" class="cell" data-execution_count="2">
+<div id="e087658c" class="cell" data-execution_count="3">
 <div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1">cronoprogramma</span></code></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="2">
 <div>
@@ -2405,7 +2400,7 @@ font-style: inherit;"># **📌 Mostra il grafico**</span></span>
 </div>
 </div>
 </div>
-<div id="578d7ab6" class="cell" data-execution_count="3">
+<div id="578d7ab6" class="cell" data-execution_count="4">
 <div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1">cronoprogramma.groupby(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Anno'</span>).<span class="bu" style="color: null;
@@ -3677,7 +3672,7 @@ Si parte da <strong>grandi obiettivi strategici</strong> e si costruiscono misur
 🔹 <strong>Il successo dipende dalla capacità di scegliere il bando giusto, preparare una buona domanda e gestire il finanziamento in modo corretto.</strong><br>
 🔹 <strong>Monitorare costantemente le opportunità di finanziamento è essenziale per restare competitivi.</strong></p>
 <p>👉 <strong>Vuoi che crei un diagramma di flusso per sintetizzare il processo di accesso ai fondi?</strong> 🚀</p>
-<div id="1d22dfca" class="cell" data-execution_count="4">
+<div id="1d22dfca" class="cell" data-execution_count="5">
 <div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">import</span> graphviz</span>
@@ -5401,7 +5396,7 @@ Conclusione
 <p>Appresso riporto alcune sintesi dell’ultimo XML -&gt; parquet da me prodotto</p>
 <section id="quanti-aiuti-contiene" class="level2" data-number="9.1">
 <h2 data-number="9.1" class="anchored" data-anchor-id="quanti-aiuti-contiene"><span class="header-section-number">9.1</span> Quanti aiuti contiene</h2>
-<div id="16744768" class="cell" data-execution_count="2">
+<div id="16744768" class="cell" data-execution_count="3">
 <div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1">df <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> con.execute(<span class="st" style="color: #20794D;
@@ -5443,7 +5438,7 @@ font-style: inherit;">"SELECT count(distinct(CF)), count((CF)), count(distinct(C
 </section>
 <section id="quali-misure-hanno-più-aiuti" class="level2" data-number="9.2">
 <h2 data-number="9.2" class="anchored" data-anchor-id="quali-misure-hanno-più-aiuti"><span class="header-section-number">9.2</span> Quali misure hanno più aiuti</h2>
-<div id="8de2eb73" class="cell" data-execution_count="3">
+<div id="8de2eb73" class="cell" data-execution_count="4">
 <div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1">df <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> con.execute(<span class="st" style="color: #20794D;
@@ -5615,7 +5610,7 @@ font-style: inherit;">"SELECT upper(misura) MISURA, count(CAR) CONCESSIONI, sum(
 <section id="quali-concedenti-hanno-più-aiuti" class="level2" data-number="9.3">
 <h2 data-number="9.3" class="anchored" data-anchor-id="quali-concedenti-hanno-più-aiuti"><span class="header-section-number">9.3</span> Quali concedenti hanno più aiuti</h2>
 <p>purtroppo il nome del concedente è scritto in modi diversi</p>
-<div id="0fb36217" class="cell" data-execution_count="4">
+<div id="0fb36217" class="cell" data-execution_count="5">
 <div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1">df <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> con.execute(<span class="st" style="color: #20794D;
@@ -5716,7 +5711,7 @@ font-style: inherit;">"SELECT upper(concedente) CONCEDENTE, count(CAR) CONCESSIO
 </section>
 <section id="gli-aiuti-in-ordine-di-valore-nominale" class="level2" data-number="9.4">
 <h2 data-number="9.4" class="anchored" data-anchor-id="gli-aiuti-in-ordine-di-valore-nominale"><span class="header-section-number">9.4</span> Gli aiuti in ordine di valore nominale €</h2>
-<div id="abbbe8d3" class="cell" data-execution_count="5">
+<div id="abbbe8d3" class="cell" data-execution_count="6">
 <div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1">df <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> con.execute(<span class="st" style="color: #20794D;
@@ -5817,7 +5812,7 @@ font-style: inherit;">"SELECT upper(concedente) CONCEDENTE, count(CAR) CONCESSIO
 </section>
 <section id="valori-raggruppati-per-data" class="level2" data-number="9.5">
 <h2 data-number="9.5" class="anchored" data-anchor-id="valori-raggruppati-per-data"><span class="header-section-number">9.5</span> valori raggruppati per data</h2>
-<div id="4166ca94" class="cell" data-execution_count="6">
+<div id="4166ca94" class="cell" data-execution_count="7">
 <div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1">df <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> con.execute(<span class="st" style="color: #20794D;
@@ -6050,7 +6045,7 @@ font-style: inherit;">"SELECT CONCESSIONE, count(CAR) CONCESSIONI, sum(cast(NOMI
 </div>
 <section id="valori-raggruppati-per-regione" class="level3" data-number="9.5.1">
 <h3 data-number="9.5.1" class="anchored" data-anchor-id="valori-raggruppati-per-regione"><span class="header-section-number">9.5.1</span> valori raggruppati per regione</h3>
-<div id="016165a8" class="cell" data-execution_count="7">
+<div id="016165a8" class="cell" data-execution_count="8">
 <div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1">df <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> con.execute(<span class="st" style="color: #20794D;
@@ -6151,7 +6146,7 @@ font-style: inherit;">"SELECT upper(REGIONE) REGIONE, count(CAR), sum(cast(NOMIN
 </section>
 <section id="valori-raggruppati-per-ateco" class="level3" data-number="9.5.2">
 <h3 data-number="9.5.2" class="anchored" data-anchor-id="valori-raggruppati-per-ateco"><span class="header-section-number">9.5.2</span> valori raggruppati per ATECO</h3>
-<div id="1987e8bf" class="cell" data-execution_count="8">
+<div id="1987e8bf" class="cell" data-execution_count="9">
 <div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1">df <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> con.execute(<span class="st" style="color: #20794D;
@@ -6252,7 +6247,7 @@ font-style: inherit;">"SELECT upper(SETTORE_ATTIVITA) SETTORE_ATTIVITA, count(CA
 </section>
 <section id="valori-raggruppati-per-strumento" class="level3" data-number="9.5.3">
 <h3 data-number="9.5.3" class="anchored" data-anchor-id="valori-raggruppati-per-strumento"><span class="header-section-number">9.5.3</span> valori raggruppati per strumento</h3>
-<div id="d6cbe496" class="cell" data-execution_count="9">
+<div id="d6cbe496" class="cell" data-execution_count="10">
 <div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1">df <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> con.execute(<span class="st" style="color: #20794D;
@@ -6353,7 +6348,7 @@ font-style: inherit;">"SELECT upper(DES_STRUMENTO) STRUMENTO, count(CAR), sum(ca
 </section>
 <section id="gli-importi-più-grandi" class="level3" data-number="9.5.4">
 <h3 data-number="9.5.4" class="anchored" data-anchor-id="gli-importi-più-grandi"><span class="header-section-number">9.5.4</span> gli importi più grandi</h3>
-<div id="66d064a1" class="cell" data-execution_count="10">
+<div id="66d064a1" class="cell" data-execution_count="11">
 <div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1">df <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> con.execute(<span class="st" style="color: #20794D;
@@ -6575,7 +6570,7 @@ font-style: inherit;">"SELECT IMPRESA, REGIONE, CONCEDENTE, MISURA, NOMINALE, AI
 <li>INVITALIA - AGENZIA NAZIONALE PER L’ATTRAZIONE DEGLI INVESTIMENTI E LO SVILUPPO D’IMPRESA S.P.A.</li>
 <li>AGENZIA NAZIONALE PER L’ATTRAZIONE DEGLI INVESTIMENTI E LO SVILUPPO D’IMPRESA SPA - INVITALIA (05678721001)</li>
 </ul>
-<div id="9e947ccc" class="cell" data-execution_count="11">
+<div id="9e947ccc" class="cell" data-execution_count="12">
 <div class="sourceCode cell-code" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1">df <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> con.execute(<span class="st" style="color: #20794D;
@@ -6676,7 +6671,7 @@ font-style: inherit;">"SELECT upper(misura) MISURA, count(CAR) CONCESSIONI, sum(
 </section>
 <section id="valori-raggruppati-per-data-1" class="level3" data-number="9.6.2">
 <h3 data-number="9.6.2" class="anchored" data-anchor-id="valori-raggruppati-per-data-1"><span class="header-section-number">9.6.2</span> valori raggruppati per data</h3>
-<div id="aa8b03e2" class="cell" data-execution_count="12">
+<div id="aa8b03e2" class="cell" data-execution_count="13">
 <div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1">df <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> con.execute(<span class="st" style="color: #20794D;
@@ -7280,7 +7275,6 @@ Italia Oggi. (2025). Banche, così l’intelligenza artificiale manderà in <spa
 
 
 
-
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://paolovolterra.github.io/blog/posts/2025-01-08_MiniCds/media/cover.png" class="img-fluid figure-img"></p>
@@ -7349,7 +7343,7 @@ Italia Oggi. (2025). Banche, così l’intelligenza artificiale manderà in <spa
 
 </section>
 
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>Invitalia</category>
   <category>CdS</category>
   <category>Agevolazioni</category>
@@ -7362,7 +7356,6 @@ Italia Oggi. (2025). Banche, così l’intelligenza artificiale manderà in <spa
   <dc:creator>Paolo Volterra</dc:creator>
   <link>https://paolovolterra.github.io/blog/posts/2025-01-03/</link>
   <description><![CDATA[ 
-
 
 
 
@@ -8337,7 +8330,7 @@ font-style: inherit;">=</span>df)</span></code></pre></div>
 
 </section>
 
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Torna in cima</a> ]]></description>
   <category>GDPR</category>
   <category>Python</category>
   <category>Opendata</category>
