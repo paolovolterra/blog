@@ -1,6 +1,13 @@
 project:
   type: website
   output-dir: _site
+  preview:
+    port: 3434
+    browser: true
+    watch-inputs: true
+    timeout: 3600
+  resources:
+    - _pdf/**
   render:
     - index.qmd
     - posts/**/index.qmd
@@ -8,6 +15,13 @@ project:
 website:
   title: "Grafici che fanno pensare"
   site-url: https://paolovolterra.github.io/blog
+  page-navigation: true
+  back-to-top-navigation: true
+  open-graph: true
+  twitter-card:
+    creator: "@ghibbli"
+  repo-actions: [edit, issue]
+  
   navbar:
     left:
       - href: index.qmd
@@ -17,7 +31,7 @@ website:
     right:
       - icon: github
         href: https://github.com/paolovolterra/blog
-  page-navigation: true
+
   page-footer:
     center:
       - text: "© 2025 Paolo Volterra"
@@ -26,13 +40,15 @@ website:
 
 format:
   html:
-    theme:
-      light: journal
-      dark: cyborg
-    css: https://paolovolterra.github.io/styles.css
+    css: MCC.css
     toc: true
     code-copy: true
-
+    theme:
+      - pulse
+      - BeatrizMilz.scss
+  pdf:
+    output-dir: _pdf   # i PDF vanno in _pdf/
+    
 execute:
   default-language: python
   echo: true

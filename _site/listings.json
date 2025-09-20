@@ -1,22 +1,60 @@
 [
   {
-    "listing": "/index.html",
-    "items": [
-      "/posts/index.html",
-      "/posts/2025-09-19-codice/index.html",
-      "/posts/2025-09-19-prova/index.html",
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
-    ]
-  },
-  {
     "listing": "/posts/index.html",
     "items": [
+      "/posts/2025-09-15_BAM_tassi/BAM_tassi.pdf",
       "/posts/2025-09-20-demo/index.html",
       "/posts/2025-09-19-codice/index.html",
       "/posts/2025-09-19-prova/index.html",
       "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/posts/welcome/index.html",
+      "/posts/2025-02-10_AiBanche/index.html",
+      "/posts/2025-02-09_FondoAI/index.html",
+      "/posts/2025-02-08_googlesearch/index.html",
+      "/posts/2025-02-07_FSC/index.html",
+      "/posts/2025-02-02_Obsidian/index.html",
+      "/posts/2025-02-01_Quarto/index.html",
+      "/posts/2025-01-12_DidPsm/index.html",
+      "/posts/2025-01-12_IoNoi/index.html",
+      "/posts/2025-01-16_FactChecking/index.html",
+      "/posts/2025-01-12_RNA/index.html",
+      "/posts/2025-01-12_Rischio/index.html",
+      "/posts/2025-01-11_Github/index.html",
+      "/posts/2025-01-10_IAInBanca/index.html",
+      "/posts/2025-01-08_MiniCds/index.html",
+      "/posts/2025-01-03/index.html",
+      "/posts/2025-02-11_FdG2/index.html",
+      "/posts/2024-11-10_FdG1/index.html",
+      "/posts/2024-09-27_Mediobanca/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/2025-09-15_BAM_tassi/BAM_tassi.pdf",
+      "/posts/2025-09-20-demo/index.html",
+      "/posts/2025-09-19-codice/index.html",
+      "/posts/2025-09-19-prova/index.html",
+      "/posts/post-with-code/index.html",
+      "/posts/welcome/index.html",
+      "/posts/2025-02-10_AiBanche/index.html",
+      "/posts/2025-02-09_FondoAI/index.html",
+      "/posts/2025-02-08_googlesearch/index.html",
+      "/posts/2025-02-07_FSC/index.html",
+      "/posts/2025-02-02_Obsidian/index.html",
+      "/posts/2025-02-01_Quarto/index.html",
+      "/posts/2025-01-12_DidPsm/index.html",
+      "/posts/2025-01-12_IoNoi/index.html",
+      "/posts/2025-01-16_FactChecking/index.html",
+      "/posts/2025-01-12_RNA/index.html",
+      "/posts/2025-01-12_Rischio/index.html",
+      "/posts/2025-01-11_Github/index.html",
+      "/posts/2025-01-10_IAInBanca/index.html",
+      "/posts/2025-01-08_MiniCds/index.html",
+      "/posts/2025-01-03/index.html",
+      "/posts/2025-02-11_FdG2/index.html",
+      "/posts/2024-11-10_FdG1/index.html",
+      "/posts/2024-09-27_Mediobanca/index.html"
     ]
   }
 ]

@@ -1,0 +1,46 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - _pdf/**
+  render:
+    - index.qmd
+    - posts/**/index.qmd
+
+website:
+  title: "Grafici che fanno pensare"
+  site-url: https://paolovolterra.github.io/blog
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: posts/index.qmd
+        text: Post
+    right:
+      - icon: github
+        href: https://github.com/paolovolterra/blog
+  page-navigation: true
+  page-footer:
+    center:
+      - text: "© 2025 Paolo Volterra"
+      - text: "Feed RSS"
+        href: posts/index.xml
+
+format:
+  html:
+    theme:
+      light: journal
+      dark: cyborg
+    css: styles.scss
+    toc: true
+    code-copy: true
+  pdf:
+    output-dir: _pdf   # i PDF vanno in _pdf/
+    
+execute:
+  default-language: python
+  echo: true
+  warning: false
+  error: false
+  cache: true
+  freeze: auto

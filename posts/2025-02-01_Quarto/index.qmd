@@ -1,0 +1,413 @@
+---
+title: "Utilizzare Quarto"
+subtitle: "_appunti per iniziare a districarsi nelle infinite possibilità_ "
+author: "Paolo Volterra"
+date: 2025-01-31
+created: 2025-02-01
+updated: 2025-02-01
+lang: it
+
+format:
+  html:
+    toc: true               # Abilita il sommario
+    toc-depth: 3            # Mostra fino al terzo livello di intestazioni
+    number-sections: true   # Aggiunge numeri alle sezioni e sottosezioni
+    toc-location: right     # Posiziona il sommario a destra
+    toc-title: "Indice"     # Titolo del sommario
+
+categories:
+  - Quarto
+
+---
+
+
+![](https://quarto.org/quarto.png)
+
+### **Quarto: Cos'è e a cosa serve?**
+**Quarto** è un sistema open-source per la creazione di documenti dinamici, report scientifici, presentazioni, siti web e libri utilizzando **Markdown avanzato** e **blocco di codice eseguibile**. È il successore di **R Markdown** ed è progettato per essere indipendente dal linguaggio di programmazione, supportando **Python, R, Julia e ObservableJS**.
+
+---
+
+## **🛠️ Funzionalità principali di Quarto**
+1. **Markdown Esteso (`.qmd`)**  
+   - Basato su Markdown, ma con supporto per codice eseguibile.
+   - Include funzionalità avanzate come **bibliografie, LaTeX, cross-referencing**.
+
+2. **Esecuzione di codice (Python, R, Julia, ObservableJS)**  
+   - Permette di integrare ed eseguire codice all'interno di un documento.  
+   - L'output (grafici, tabelle, statistiche) viene incluso automaticamente.
+
+3. **Supporto per più formati di output**  
+   - 📄 **HTML** (per blog, siti web, dashboard)  
+   - 📊 **PDF** (con LaTeX)  
+   - 📜 **Word**  
+   - 🎞 **Presentazioni** (PowerPoint, Reveal.js, Beamer)  
+   - 📚 **Libri e documentazione**  
+
+4. **Interattività**  
+   - Supporta **Shiny, ObservableJS e widgets interattivi**.
+   - Perfetto per **dashboard dinamiche** e documenti interattivi.
+
+5. **Automazione e Reproducibility**  
+   - Può essere utilizzato in **Data Science e Finanza** per report aggiornabili in automatico.
+   - Perfetto per **analisi economiche, finanziarie e report aziendali**.
+
+6. **Gestione YAML per configurazione avanzata**  
+   - Consente di definire **metadati, opzioni di rendering e layout**.
+
+---
+
+## **📌 Differenza tra Quarto e Jupyter Notebook**
+| **Caratteristica**  | **Jupyter Notebook (`.ipynb`)** | **Quarto (`.qmd`)** |
+|---------------------|--------------------------------|---------------------|
+| **Formato file** | JSON con codice e output | Markdown + codice eseguibile |
+| **Modificabile con Git** | Difficile da versionare | Facile da usare con Git |
+| **Output** | Solo interattivo | HTML, PDF, Word, PPT, ecc. |
+| **Uso ideale** | Data Science esplorativa | Report, articoli scientifici, presentazioni |
+
+---
+
+## **🖥️ Come installare Quarto**
+Puoi installarlo con:
+```bash
+# Per Windows, Mac e Linux
+https://quarto.org/docs/get-started/
+```
+Oppure, se usi Conda:
+```bash
+conda install -c conda-forge quarto
+```
+
+Esegui un test con:
+```bash
+quarto check
+```
+
+## Quarto usa qmd e non md
+
+- **`.md`** è un file Markdown tradizionale, usato principalmente per documentazione semplice.
+- **`.qmd`** è un file Markdown esteso per **Quarto**, che permette di eseguire codice, generare report interattivi e produrre output in più formati.
+
+
+Ecco la tabella completa con le differenze tra **`.md`** e **`.qmd`**:
+
+| **Caratteristica**      | **.md (Markdown)**                      | **.qmd (Quarto Markdown)**                  |
+|------------------------|--------------------------------|--------------------------------|
+| **Linguaggio base**   | Markdown standard            | Markdown con estensioni per Quarto |
+| **Obiettivo**         | Formattazione di testo semplice, spesso usato per documentazione, README, blog | Creazione di documenti scientifici, report interattivi, presentazioni |
+| **Supporto per codice** | Supporta solo evidenziazione del codice con ``` | Supporta blocchi di codice eseguibili (Python, R, Julia, ecc.) |
+| **Esecuzione di codice** | No, solo visualizzazione | Sì, può eseguire codice e mostrare output |
+| **Supporto YAML**      | Facoltativo (usato per metadata in alcuni casi) | Sì, il front matter YAML è essenziale per la configurazione |
+| **Compilazione**       | Non necessita di compilazione, può essere letto direttamente | Necessita di `quarto render` per generare output in HTML, PDF, Word, ecc. |
+| **Funzionalità avanzate** | Markdown standard | Supporta LaTeX, bibliografie, cross-referencing, interattività con Shiny, ObservableJS |
+
+
+
+
+
+---
+
+## **📌 Quando usare Quarto?**
+- Per **report finanziari e analisi economiche** (può integrare dati aggiornati automaticamente).
+- Per **presentazioni su innovazione e AI** (come il tuo intervento all'OPEN INNOVATION SUMMIT 2024).
+- Per creare **documentazione bancaria e normativa** con output in PDF, HTML o Word.
+
+---
+
+# Finalità
+
+- creare
+	- progetti
+	- [presentazioni](https://quarto.org/docs/presentations/)
+	- [siti](https://quarto.org/docs/websites/)
+	- [blog]()
+	- [libri](https://quarto.org/docs/books/)
+	- [manoscritti](https://quarto.org/docs/manuscripts/)
+	- dashboard
+	- documenti [confluence](https://quarto.org/docs/publishing/confluence.html) condivisi
+	
+- inserire codice **Python** (`python`) ,**R** (`r`), **Julia** (`julia`), **Observable JavaScript** (`ojs`), **Bash**, **C**, **C++**, **SQL**, **Stan**,, **Fortran** e altri, se installi i kernel appropriati
+- [pubblicare](https://quarto.org/docs/publishing/) i risultati su  [Quarto Pub](https://quartopub.com/)  (serve login; questo è il [mio](https://paolovolterra.quarto.pub/)), [github](https://github.com/) (serve login, configurazione e [GIT](https://git-scm.com/); questo è il [mio](https://paolovolterra.github.io/) ), [Hugo](https://gohugo.io/), ecC. ogni sito ha proprie modalità per interfacciarsi e pubblicare; occorre studiarsele.
+
+# come
+
+Il progetto si può creare da terminale, con RStudio, VSCode, Positron, PCharm, ecc.
+Si può fare tutto anche con notepad e terminale
+Da terminale però si capisce meglio cosa succede "sotto il cofano":
+- entri in una cartella dedicata e scrivi `quarto create project`
+- il prompt guida la scelta per indicare 
+	- il tipo di progetto, 
+	- la sottocartella dove inserire il tutto, 
+	- il titolo del progetto,
+	- l'IDE da utilizzare
+
+![](media/Pasted%20image%2020250131193127.png)
+
+Il progetto più semplice è default o manuscript
+Ci sono poi altri tipi di progetto che non sono riportati nella scelta da terminale:
+- dashboard
+- presentationi  [reveal.js](https://quarto.org/docs/presentations/revealjs/) (HTML),  [PowerPoint](https://quarto.org/docs/presentations/powerpoint.html) (MS Office),  [Beamer](https://quarto.org/docs/presentations/beamer.html) (LaTeX/PDF)
+- ...
+
+A questo punto Quarto costruisce la struttura del progetto, in base al tipo di progEtto selezionato
+- se si sceglie `default` Quarto costruisce 2 soli file **principali**
+	- **`_quarto.yml`** → File di configurazione generale del progetto
+	- **File `.qmd`** → Documento principale (di norma `index.qmd`)
+
+Negli altri casi costruisce file utili al caso
+- per manuscript `references.bib`
+- per site `about.qmd, style.css`
+
+```{bash}
+tree /F
+
+D:.
+├───manoscritto
+│       _quarto.yml
+│       index.qmd
+│       references.bib
+│
+├───sito prova
+│       _quarto.yml
+│       index.qmd
+│       about.qmd
+│       styles.css
+│
+└───default
+        _quarto.yml
+        prova.qmd
+
+```
+
+Per il preview scrivo  `quarto preview` da terminal
+Per il rendering scrivo `quarto render` da terminal
+
+Quarto costruirà prima la struttura di output (cartelle e files) e poi mostrerà l'output su browser. 
+La cartella di output inizia con `_` (es.: \_manuscript \_site)
+La porta è random ma può essere settata inserendo le informazioni nel preambolo YAML del .qmd
+Anche la dir di output può essere settata.
+
+```{bash}
+
+# esempio per manuscript
+
+project:
+  type: manuscript
+  preview:
+    port: 4200
+    browser: false
+```
+
+Questo è il risultato:
+```{bash}
+tree /F
+
+D:.
+├───manoscritto
+│   │   _quarto.yml
+│   │   index.qmd
+│   │   references.bib
+│   │   styles.scss
+│   │   MCC.css
+│   │   styles.css
+│   │
+│   ├───.quarto
+│   │   ├───preview
+│   │   │       lock
+│   │   │
+│   │   ├───xref
+│   │   │       INDEX
+│   │   │       2f91f2fd
+│   │   │       550746bb
+│   │   │       3f709881
+│   │   │       4d0e549a
+│   │   │
+│   │   └───idx
+│   └───_manuscript
+│       │   index.html
+│       │   index.docx
+│       │
+│       └───site_libs
+│           ├───clipboard
+│           │       clipboard.min.js
+│           │
+│           ├───quarto-html
+│           │       quarto.js
+│           │       popper.min.js
+│           │       tippy.umd.min.js
+│           │       anchor.min.js
+│           │       tippy.css
+│           │       quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css
+│           │
+│           └───bootstrap
+│                   bootstrap.min.js
+│                   bootstrap-icons.css
+│                   bootstrap-a1ff8711b79ae3724c050874b28d9907.min.css
+│                   bootstrap-icons.woff
+│
+├───sito prova
+│       _quarto.yml
+│       index.qmd
+│       about.qmd
+│       styles.css
+│       MCC.css
+│       styles.scss
+│
+├───default
+│       _quarto.yml
+│       prova.qmd
+│       styles.scss
+│       MCC.css
+│       styles.css
+│
+└───mybook
+    │   _quarto.yml
+    │   index.qmd
+    │   intro.qmd
+    │   summary.qmd
+    │   references.qmd
+    │   cover.png
+    │   references.bib
+    │   styles.scss
+    │   MCC.css
+    │   styles.css
+    │
+    ├───.quarto
+    │   ├───preview
+    │   │       lock
+    │   │
+    │   ├───idx
+    │   │       index.qmd.json
+    │   │       intro.qmd.json
+    │   │       summary.qmd.json
+    │   │       references.qmd.json
+    │   │
+    │   ├───xref
+    │   │       INDEX
+    │   │       d7202488
+    │   │       5f634940
+    │   │       e68c4dcb
+    │   │       1066ac5e
+    │   │
+    │   └───cites
+    │           index.json
+    │
+    └───_book
+        │   index.html
+        │   intro.html
+        │   search.json
+        │   summary.html
+        │   references.html
+        │
+        └───site_libs
+            ├───quarto-nav
+            │       quarto-nav.js
+            │       headroom.min.js
+            │
+            ├───clipboard
+            │       clipboard.min.js
+            │
+            ├───quarto-search
+            │       autocomplete.umd.js
+            │       fuse.min.js
+            │       quarto-search.js
+            │
+            ├───quarto-html
+            │       quarto.js
+            │       popper.min.js
+            │       tippy.umd.min.js
+            │       anchor.min.js
+            │       tippy.css
+            │       quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css
+            │
+            └───bootstrap
+                    bootstrap.min.js
+                    bootstrap-icons.css
+                    bootstrap-icons.woff
+                    bootstrap-8da5b4427184b79ecddefad3d342027e.min.css
+```
+
+# Personalizzazione
+
+il link al css va in `_quarto.yml`
+
+
+---
+
+# tipi di progetto
+
+## default
+
+![](./media/Pasted%20image%2020250131192626.png)
+![](media/Pasted%20image%2020250131192930.png)
+
+
+## presentazione
+
+
+## manoscritto
+
+![manoscritto](media/Pasted%20image%2020250131191238.png)
+![](media/Pasted%20image%2020250131192013.png)
+
+![](media/Pasted%20image%2020250201233334.png)
+
+## Sito
+
+![sito](media/Pasted%20image%2020250131191811.png)
+
+![](media/Pasted%20image%2020250131191927.png)
+
+## libro
+
+![](media/Pasted%20image%2020250201233255.png)
+
+
+## dashboard
+
+
+# file \_quarto.yml
+
+
+![](media/Pasted%20image%2020250131205407.png)
+
+
+# file .qmd
+
+![](media/Pasted%20image%2020250131205701.png)
+
+
+
+# Esempi di codice
+
+- **1️⃣ Python**
+
+` ```{python} import numpy as np print(np.array([1, 2, 3])) ``` `
+
+- **2️⃣ R**
+
+` ```{r} summary(cars) ``` `
+
+- **3️⃣ Julia**
+
+` ```{julia} using Statistics mean([1, 2, 3, 4, 5]) ``` `
+
+- **4️⃣ Observable JavaScript**
+
+` ```{ojs} Plot.lineY([1, 2, 3, 4, 5]) ``` `
+
+
+- **Esempio in Bash**
+
+` ```{bash} echo "Hello from Bash!" ``` `
+
+- **Esempio in SQL**
+
+` ```{sql} SELECT * FROM my_table; ``` `
+
+
+# Siti interessanti
+
+- https://ivelasq.quarto.pub/building-a-blog-with-quarto/lets-build-a-quarto-blog/
+- https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/
+- https://www.crumplab.com/blog/post_887_8_25_22_quartoblog/

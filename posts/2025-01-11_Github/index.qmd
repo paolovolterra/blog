@@ -1,0 +1,131 @@
+---
+title: "Come Pubblicare su un sito Github"
+subtitle: "_miei appunti presi da diverse fonti_"
+draft: false
+
+date: 2025-01-11
+created: 2025-01-11
+updated: 2025-01-12
+lang: it
+tags: [Quarto, Github]
+author: Paolo Volterra
+
+categories:
+  - Github
+  - Quarto
+  - Python
+
+format:
+  html:
+    toc: true
+    css: styles.css
+---
+
+_Premessa: un immenso grazie a Chatgpt_
+
+
+![cover](immagini/1_CWFkh5z8oa6dZfn5_gkKKQ.jpg)
+
+si lavora con molti tipi di files: yaml, qmd, css, ...
+
+
+**devono essere precedentemente configurati** :
+
+- git
+- github
+
+un esempio impattante:
+
+- sposto il progetto in un'altra cartella locale
+
+---
+
+## I comandi basilari
+
+Non è necessario specificare manualmente il file `.qmd` in tutti i comandi, ma devi farlo nei comandi `quarto render` o `quarto preview`. Gli altri comandi possono lavorare con un approccio più generico, come `git add .`, per includere tutte le modifiche.
+
+1. quarto preview d:/paolovolterra.github.io/posts/202508_RNA/RNA.qmd
+2. quarto render d:/paolovolterra.github.io/posts/202508_RNA/RNA.qmd
+
+3. git add d:/paolovolterra.github.io/docs/posts/202508_RNA/RNA.html
+4. git add . (se hai rilevato altre modifiche e le voi introitare)
+
+5. git status
+
+6. git commit -m "Aggiornata la pagina: RNA"
+
+7. git pull origin main --rebase
+8. git push origin main
+
+9. git log
+
+### Flusso di lavoro ottimizzato
+
+Se modifichi un solo file `.qmd` (ad esempio, `RNA.qmd`), puoi seguire questo flusso semplificato:
+
+```bash
+quarto render d:/paolovolterra.github.io/posts/202508_RNA/RNA.qmd
+git add d:/paolovolterra.github.io/docs/posts/202508_RNA/RNA.html
+git commit -m "Aggiornata la pagina: RNA"
+git pull origin main --rebase
+git push origin main
+
+```
+
+1. Genera l'output dal file modificato
+2. Aggiungi i file modificati
+3. Crea il commit
+4. Sincronizza con il repository remoto
+
+
+### Se ci sono altri file modificati 
+(es. `posts.html`, `sitemap.xml`), questi potrebbero essere stati rigenerati automaticamente da Quarto. Per gestire anche questi file:
+
+```bash
+git add .
+git commit -m "Aggiornati file generati automaticamente"
+git push origin main
+
+```
+
+Se vuoi evitare di eseguire manualmente questi comandi per ogni file, puoi creare uno script Bash o Batch.
+
+
+## Riferimenti
+
+- [Il mio primo blog post](https://aborruso.github.io/til/un-sito-in-quarto/)con Quarto [[Il mio primo blog post – aborruso’s website]]
+- [Creating your personal website using Quarto](https://ucsb-meds.github.io/creating-quarto-websites/)  con Quarto [[Creating your personal website using Quarto]]
+- [Creating a Website (dal sito ufficiale)](https://quarto.org/docs/websites/)
+- [Creating a Blog (dal sito ufficiale)](https://quarto.org/docs/websites/website-blog.html)
+- [MEDS Computing Requirements & Software Installation Guide](https://ucsb-meds.github.io/MEDS-installation-guide/) con RStudio
+
+
+
+## Bibtex
+https://www.getbibtex.com/
+
+
+@misc{aborrusoPrimoBlog,
+	author = {Andrea Borruso},
+	title = {{I}l mio primo blog post – aborruso’s website --- aborruso.github.io},
+	howpublished = {\url{https://aborruso.github.io/til/un-sito-in-quarto/}},
+	year = {},
+	note = {[Accessed 11-01-2025]},
+}
+
+@misc{marvinschmittCreateYour,
+	author = {Marvin Schmitt},
+	title = {{C}reate {Y}our {W}ebsite with {Q}uarto: {C}omplete {T}utorial and {T}emplate --- marvinschmitt.com},
+	howpublished = {\url{https://marvinschmitt.com/blog/website-tutorial-quarto/}},
+	year = {},
+	note = {[Accessed 11-01-2025]},
+}
+
+@misc{adtariePersonalWebsite,
+	author = {A.A. Wijaya},
+	title = {{P}ersonal {W}ebsite using {J}upyter {N}otebook and {Q}uarto – {F}oreland of {T}houghts --- adtarie.net},
+	howpublished = {\url{https://adtarie.net/posts/007-quarto-python-tutorial/}},
+	year = {},
+	note = {[Accessed 11-01-2025]},
+}
+

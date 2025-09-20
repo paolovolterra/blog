@@ -1,0 +1,35 @@
+---
+title: "Obsidian"
+subtitle: "__ "
+author: "Paolo Volterra"
+date: 2025-02-02
+lang: it
+
+format:
+  html:
+    toc: true               # Abilita il sommario
+    toc-depth: 3            # Mostra fino al terzo livello di intestazioni
+    number-sections: true   # Aggiunge numeri alle sezioni e sottosezioni
+    toc-location: right     # Posiziona il sommario a destra
+    toc-title: "Indice"     # Titolo del sommario
+
+categories:
+  - Obsidian
+
+
+# quarto render ./posts/2516_Obsidian/20250202_Obsidian.qmd
+# git add  ./posts/2516_Obsidian/20250202_Obsidian.qmd
+
+---
+
+
+
+## Temi belli
+
+
+![ITS-Theme.png](./media/ITS-Theme.png)
+
+![Primary.png](./media/Primary.png)
+
+![Shimmering.png](./media/Shimmering.png)
+

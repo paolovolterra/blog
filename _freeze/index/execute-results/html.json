@@ -1,8 +1,8 @@
 {
-  "hash": "ea9f191252b3c2197e3bd555e1cb0bfb",
+  "hash": "924e941317d5b2f9906df4bef58f9a54",
   "result": {
     "engine": "jupyter",
-    "markdown": "---\ntitle: \"Grafici che fanno pensare\"\ndescription: \"Analisi sintetiche su innovazione, AI, economia e Sud Italia — con codice e grafici riproducibili.\"\ntitle-block-banner: true\npage-layout: article\n---\n\n::: {.hero}\n### Benvenuto\nMini-saggi, grafici e note rapide. Tutto generato con Quarto, eseguito in CI su GitHub, pubblicato su GitHub Pages.\n\n- Post tecnici con **Python**\n- Grafici **matplotlib**\n- Dataset e script **riutilizzabili**\n:::\n\n## Ultimi post\n\n```{listing}\ncontents: posts/*/index.qmd\nsort: \"date desc\"\ntype: grid\nfields: [image, title, date, categories, description]\ngrid-columns: 3\nmax-items: 6\n\n```\n\n",
+    "markdown": "---\ntitle: \"Grafici che fanno pensare\"\ndescription: \"Analisi sintetiche su innovazione, AI, economia e Sud Italia — con codice e grafici riproducibili.\"\ntitle-block-banner: true\npage-layout: article\n---\n\n::: {.hero}\n### Benvenuto\nMini-saggi, grafici e note rapide. Tutto generato con Quarto, eseguito in CI su GitHub, pubblicato su GitHub Pages.\n\n- Post tecnici con **Python**\n- Grafici **matplotlib**\n- Dataset e script **riutilizzabili**\n:::\n\n## Ultimi post\n\n```{listing}\ncontents: posts/*/index.qmd\nsort: \"date desc\"\ntype: grid\nfields: [image, title, date, categories, description]\ngrid-columns: 3\nmax-items: 6\n```\n\n",
     "supporting": [
       "index_files"
     ],

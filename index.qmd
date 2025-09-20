@@ -1,12 +1,23 @@
 ---
 title: "Grafici che fanno pensare"
-description: "Analisi sintetiche su innovazione, AI, economia e Sud Italia — con codice e grafici riproducibili."
+description: |
+  Mini-saggi, grafici e note rapide. Tutto generato con Quarto e Python,eseguito in CI su GitHub, pubblicato su GitHub Pages
 title-block-banner: true
 page-layout: article
+
+# Listing solo via YAML (niente blocchi nel corpo)
+listing:
+  contents:
+    - posts/*/index.qmd
+  sort: "date desc"
+  type: grid
+  fields: [image, title, date, categories, description]
+  grid-columns: 3
+  max-items: 6
 ---
 
 ::: {.hero}
-### Benvenuto
+# Benvenuto
 Mini-saggi, grafici e note rapide. Tutto generato con Quarto, eseguito in CI su GitHub, pubblicato su GitHub Pages.
 
 - Post tecnici con **Python**
@@ -14,14 +25,4 @@ Mini-saggi, grafici e note rapide. Tutto generato con Quarto, eseguito in CI su 
 - Dataset e script **riutilizzabili**
 :::
 
-## Ultimi post
-
-```{listing}
-contents: posts/*/index.qmd
-sort: "date desc"
-type: grid
-fields: [image, title, date, categories, description]
-grid-columns: 3
-max-items: 6
-
-```
+# Ultimi posts

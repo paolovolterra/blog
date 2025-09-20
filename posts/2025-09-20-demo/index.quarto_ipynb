@@ -1,0 +1,50 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Demo con immagine e codice\"\n",
+        "date: 2025-09-20\n",
+        "categories: [python, demo]\n",
+        "description: \"Esempio di post con immagine di copertina e grafico generato da Python.\"\n",
+        "image: ../../assets/images/demo-cover.png\n",
+        "draft: false\n",
+        "---\n",
+        "\n",
+        "### Tabella"
+      ],
+      "id": "59465724"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import pandas as pd\n",
+        "df = pd.DataFrame({\"Anno\":[2022,2023,2024], \"Valore\":[10,15,20]})\n",
+        "print(df)\n",
+        "\n",
+        "\n",
+        "import matplotlib.pyplot as plt\n",
+        "plt.plot(df[\"Anno\"], df[\"Valore\"], marker=\"o\")\n",
+        "plt.title(\"Crescita demo\")\n",
+        "plt.grid(True)\n",
+        "plt.show()\n"
+      ],
+      "id": "38a53a7a",
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "C:\\Users\\paolo\\AppData\\Local\\Programs\\Python\\Python311\\share\\jupyter\\kernels\\python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
